@@ -1,4 +1,4 @@
-import { HelloWorld } from './app';
+import { HelloWorld } from './hello-world';
 
 describe('HelloWorld', () => {
 

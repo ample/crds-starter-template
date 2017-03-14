@@ -7,12 +7,12 @@ module.exports = {
     extensions: ['', '.ts', '.js']
   },
   entry: {
-    'app': ['./src/app.ts']
+    'bundle': ['./src/main.ts']
   },
   output: {
     path: helpers.root('dist'),
     publicPath: '/',
-    filename: '[name].js'
+    filename: '[name].[hash].js'
   },
   module: {
     loaders: [
